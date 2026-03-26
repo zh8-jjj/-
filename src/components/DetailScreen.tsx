@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { ArrowLeft, MapPin, Flower2, BookOpen, Flame } from 'lucide-react';
 import { Site } from '../data';
 import { motion, AnimatePresence } from 'motion/react';
-import imgF from '../../public/F.png';
-import imgR from '../../public/R.png';
 
 const TRIBUTE_MESSAGES = [
   "向革命先烈致敬！",
@@ -158,7 +156,7 @@ export default function DetailScreen({ site, onBack }: { site: Site, onBack: () 
               <motion.img
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
-                src={tributeType === 'flower' ? imgR : imgF}
+                src={tributeType === 'flower' ? '/R.png' : '/F.png'}
                 alt={tributeType === 'flower' ? "菊花" : "蜡烛"}
                 referrerPolicy="no-referrer"
                 className="w-48 h-48 object-contain drop-shadow-2xl"

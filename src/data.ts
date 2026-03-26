@@ -1,13 +1,3 @@
-import img1 from '../public/1.jpg';
-import img2 from '../public/2.jpg';
-import img3 from '../public/3.jpg';
-import img4 from '../public/4.jpg';
-import img5 from '../public/5.jpg';
-import img6 from '../public/6.jpg';
-import img7 from '../public/7.jpg';
-import img8 from '../public/8.jpg';
-import img9 from '../public/9.jpg';
-
 export interface Site {
   id: string;
   name: string;
@@ -30,7 +20,7 @@ export const sites: Site[] = [
     context: '南充是川陕革命根据地重要组成部分，是朱德、张澜、罗瑞卿、张思德故乡，曾发生顺泸起义、升钟起义、仪南战役等，5万余名南充儿女参加红军。南充市烈士陵园常态化开展祭扫、红色宣讲、研学实践等活动，营造崇尚英烈、学习英烈、关爱烈属的浓厚氛围。',
     year: '1996',
     area: '2.47万m²',
-    image: img1,
+    image: '/1.jpg',
     icon: 'Landmark',
     shortDesc: '全国重点烈士纪念建筑物保护单位，安葬烈士198名。'
   },
@@ -42,7 +32,7 @@ export const sites: Site[] = [
     context: '1933—1935年，红四方面军在阆中建立苏维埃政权，2.2万阆中儿女参加红军。抗战及新中国建设时期，涌现杜光华、陈信余、李劲松、肖东平等英雄，近8000名阆中儿女为国捐躯。',
     year: '1996',
     area: '7.2万m²',
-    image: img2,
+    image: '/2.jpg',
     icon: 'Building2',
     shortDesc: '国家级烈士纪念设施，集中迁葬烈士墓400余处。'
   },
@@ -54,7 +44,7 @@ export const sites: Site[] = [
     context: '每年数万人次干部群众前来李鸣珂烈士塑像祭扫缅怀，传承革命先烈宁死不屈的伟大精神。',
     year: '2009',
     area: '3000m²',
-    image: img6,
+    image: '/6.jpg',
     icon: 'Building',
     shortDesc: '纪念南昌起义参与者李鸣珂烈士。'
   },
@@ -66,7 +56,7 @@ export const sites: Site[] = [
     context: '南部县烈士陵园常年开展祭扫纪念活动，传承红色基因，弘扬革命精神。',
     year: '2018',
     area: '1.4万m²',
-    image: img3,
+    image: '/3.jpg',
     icon: 'Church',
     shortDesc: '红四方面军旧址、红色教育研学基地。'
   },
@@ -78,7 +68,7 @@ export const sites: Site[] = [
     context: '具有褒扬纪念、教育基地的核心社会功能，是缅怀先烈、开展爱国主义教育的重要场所。',
     year: '2025',
     area: '25亩',
-    image: img4,
+    image: '/4.jpg',
     icon: 'ScrollText',
     shortDesc: '建有八百壮士赴国难群雕及烈士文化长廊。'
   },
@@ -90,7 +80,7 @@ export const sites: Site[] = [
     context: '记录了全县3100人参加红军，6800人参加各种地方武装，80600人参加各类支前工作，564人英勇牺牲的事迹，兼具褒扬文化、教育基地与公园特色等核心社会功能，填补了蓬安无公祭活动场所的空白。',
     year: '2023',
     area: '20亩',
-    image: img5,
+    image: '/5.jpg',
     icon: 'Landmark',
     shortDesc: '展示红四方面军进军蓬安后的战斗历史。'
   },
@@ -102,7 +92,7 @@ export const sites: Site[] = [
     context: '升钟起义是川北境内第一次农民武装起义，首次打出川北工农红军旗号。纪念园每年接待祭扫群众数千人次。',
     year: '1990',
     area: '3万m²',
-    image: img7,
+    image: '/7.jpg',
     icon: 'Building2',
     shortDesc: '川北境内第一次农民武装起义纪念地。'
   },
@@ -114,7 +104,7 @@ export const sites: Site[] = [
     context: '高金虎生于1962年4月，1980年11月参加革命，历任战士、排长、副连长，1988年8月28日在对越作战中牺牲，同年10月被追认为烈士，烈士墓每年接待祭扫群众近千人次。',
     year: '1988',
     area: '1300m²',
-    image: img8,
+    image: '/8.jpg',
     icon: 'Church',
     shortDesc: '纪念在对越作战中牺牲的高金虎烈士。'
   },
@@ -126,7 +116,7 @@ export const sites: Site[] = [
     context: '杨吉甫曾任中共四川省委委员等职，1931年10月在重庆被杀害，年仅27岁；杨吉甫烈士墓2017年7月被确认为南充市市级文物保护单位，每年接待祭扫群众数千人次。',
     year: '1962',
     area: '2000m²',
-    image: img9,
+    image: '/9.jpg',
     icon: 'ScrollText',
     shortDesc: '纪念中共四川省委委员杨吉甫烈士。'
   }
