@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import imgT from '../../public/T.png';
 
 export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
   return (
@@ -13,7 +14,7 @@ export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#E8EBE4]/20 via-[#E8EBE4]/50 to-[#E8EBE4]"></div>
         <img 
-          src="/T.png" 
+          src={imgT} 
           alt="柳树" 
           referrerPolicy="no-referrer"
           className="absolute -top-4 -right-4 w-64 md:w-80 h-auto opacity-85 mix-blend-multiply pointer-events-none drop-shadow-sm"
