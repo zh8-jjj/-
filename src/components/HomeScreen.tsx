@@ -50,6 +50,7 @@ export default function HomeScreen({ onSelectSite }: { onSelectSite: (id: string
                       <img 
                         src={site.image} 
                         alt={site.name} 
+                        referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
                       />
                     </div>

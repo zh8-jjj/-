@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import imgT from '../../public/T.png';
 
 export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
   return (
@@ -8,12 +9,14 @@ export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
         <img 
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHdIZGtRuz6Fc4AJvW9ZV-LQbe6Rf7CToGgrR2tzjSlmEXd4i6QPle_3mF8T061pSSByBu-QNAIyRB63J6C9Hv1cWU0M60mW9MBCk6SQRuOTwFFhtv3lPHZtLOzzi369XrUX1Wy9CGB7g1ZTTZCmmIzC19jJqWPsoC4_-uyRCC04WaYv0esFEgYv9CbJiB5aTvgdA9XhNhNJj1sh03_qk4vwHyd72un42sln3Pf5k0xg7OLSoDe2zA2WrkDiF5XRtTUHOC-JJNNAxp" 
           alt="Mountains" 
+          referrerPolicy="no-referrer"
           className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-multiply"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#E8EBE4]/20 via-[#E8EBE4]/50 to-[#E8EBE4]"></div>
         <img 
-          src="/T.png" 
+          src={imgT} 
           alt="柳树" 
+          referrerPolicy="no-referrer"
           className="absolute -top-4 -right-4 w-64 md:w-80 h-auto opacity-85 mix-blend-multiply pointer-events-none drop-shadow-sm"
         />
       </div>
